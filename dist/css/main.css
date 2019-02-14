@@ -47,7 +47,8 @@ a {
     margin: 0;
     margin-top: 17px;
     margin-left: 15px;
-    border: none; }
+    border: none;
+    margin-right: 15px; }
     .main-header .navbar .navbar-toggle .icon-bar {
       width: 20px;
       height: 4px;
@@ -57,3 +58,54 @@ a {
       background-color: #000; }
       .main-header .navbar .navbar-toggle .icon-bar + .icon-bar {
         margin-top: 2px; }
+  .main-header .navbar .container {
+    position: relative; }
+
+.main-header .logo {
+  width: 58px;
+  margin-top: 17px;
+  margin-bottom: 0;
+  float: left; }
+
+.main-header .search-cart-holder {
+  position: absolute;
+  top: 10px;
+  right: 15px; }
+  .main-header .search-cart-holder .search,
+  .main-header .search-cart-holder .cart {
+    display: inline-block; }
+  .main-header .search-cart-holder .search {
+    margin-right: 10px;
+    top: 4px;
+    position: relative; }
+    .main-header .search-cart-holder .search .form-control {
+      display: block;
+      width: 140px;
+      height: 24px;
+      border: none;
+      border-bottom: 1px solid #ccc;
+      -webkit-border-radius: 0;
+      -moz-border-radius: 0;
+      border-radius: 0;
+      box-shadow: none;
+      padding-right: 20px;
+      padding-top: 3px;
+      padding-left: 4px; }
+      .main-header .search-cart-holder .search .form-control:focus {
+        border-bottom-color: #000; }
+    .main-header .search-cart-holder .search .btn {
+      position: absolute;
+      top: 2px;
+      right: 2px;
+      background-image: url("/dist/img/search-icon.png");
+      background-repeat: no-repeat;
+      display: block;
+      width: 17px;
+      height: 18px;
+      padding: 0;
+      border: none;
+      background-color: transparent; }
+      .main-header .search-cart-holder .search .btn:focus {
+        outline: none; }
+      .main-header .search-cart-holder .search .btn:active {
+        box-shadow: none; }
