@@ -52,8 +52,8 @@
 
   .search-cart-holder {
     position: absolute;
-    top: 10px;
-    right: 15px;
+    top: 14px;
+    right: 23px;
     .search,
     .cart {
       display: inline-block;
@@ -96,6 +96,41 @@
         &:active {
           box-shadow: none;
         }
+      }
+    }
+    .cart {
+      position: relative;
+      .badge {
+        position: absolute;
+        padding: 4px 6px 3px;
+        background-color: #cc0000;
+        right: -8px;
+        bottom: -8px;
+      }
+    }
+  }
+  .nav {
+    padding-bottom: 5px;
+    li {
+      text-align: center;
+      a {
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 5px;
+        border-bottom: 2px solid transparent;
+        text-transform: uppercase;
+        display: inline-block;
+        &:hover,
+        &:focus {
+          background-color: transparent;
+          border-bottom-color: $nav-active;
+        }
+      }
+    }
+
+    .active {
+      a {
+        border-bottom: 2px solid $nav-active;
       }
     }
   }
