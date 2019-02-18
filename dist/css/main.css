@@ -176,7 +176,8 @@ a {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); }
+    transform: translate(-50%, -50%);
+    width: 100%; }
     .intro-header h2::before, .intro-header h2::after {
       display: none; }
     .intro-header h2 span {
@@ -205,3 +206,15 @@ a {
     border-left: none;
     right: 10px;
     bottom: 10px; }
+
+@media (min-width: 768px) {
+  .intro-header > img {
+    display: none; }
+  .intro-header #intro-slider {
+    display: block; }
+  .intro-header h2 {
+    padding: 30px 0;
+    width: 620px;
+    background-color: rgba(0, 0, 0, 0.3); }
+    .intro-header h2::before, .intro-header h2::after {
+      display: block; } }

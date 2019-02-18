@@ -9,6 +9,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 100%;
     &::before,
     &::after {
       display: none;
@@ -49,5 +50,27 @@
     border-left: none;
     right: 10px;
     bottom: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  .intro-header {
+    > img {
+      display: none;
+    }
+
+    #intro-slider {
+      display: block;
+    }
+
+    h2 {
+      padding: 30px 0;
+      width: 620px;
+      background-color: transparentize($color: #000000, $amount: 0.7);
+      &::before,
+      &::after {
+        display: block;
+      }
+    }
   }
 }
