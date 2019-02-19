@@ -1,5 +1,6 @@
 .intro-header {
   position: relative;
+  margin-bottom: 40px;
   h2 {
     font-size: 24px;
     color: #fff;
@@ -53,6 +54,37 @@
   }
 }
 
+#intro-slider {
+  .carousel-control {
+    background-image: none;
+    opacity: 1;
+  }
+  .carousel-indicators {
+    li {
+      width: 7px;
+      height: 7px;
+      margin: 0;
+    }
+  }
+  .arrow-left,
+  .arrow-right {
+    width: 26px;
+    height: 48px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .arrow-left {
+    background-image: url("/dist/img/arrow-left.png");
+    left: 20%;
+  }
+
+  .arrow-right {
+    background-image: url("/dist/img/arrow-right.png");
+    right: 20%;
+  }
+}
+
 @media (min-width: 768px) {
   .intro-header {
     > img {
@@ -61,6 +93,9 @@
 
     #intro-slider {
       display: block;
+      .carousel-indicators {
+        bottom: 30px;
+      }
     }
 
     h2 {
@@ -70,6 +105,23 @@
       &::before,
       &::after {
         display: block;
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .intro-header {
+    margin-bottom: 70px;
+    h2 {
+      font-size: 30px;
+      span {
+        font-size: 96px;
+      }
+    }
+    #intro-slider {
+      .carousel-indicators {
+        bottom: 40px;
       }
     }
   }
