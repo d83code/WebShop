@@ -296,3 +296,26 @@ a {
   width: 70px;
   height: 40px;
   border-width: 2px; }
+
+.products-section .products-catagories {
+  list-style: none;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 30px;
+  text-align: center; }
+  .products-section .products-catagories li {
+    display: inline-block;
+    margin-right: 8px; }
+    .products-section .products-catagories li:last-child {
+      margin-right: 0; }
+    .products-section .products-catagories li a {
+      font-size: 14px;
+      text-transform: uppercase;
+      padding-top: 10px;
+      display: block;
+      border-top: 2px solid transparent; }
+      .products-section .products-catagories li a:hover {
+        border-top-color: #acdacf; }
+    .products-section .products-catagories li.active a {
+      border-top-color: #acdacf;
+      color: #000; }
