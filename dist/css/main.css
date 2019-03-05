@@ -102,7 +102,7 @@ a {
       position: absolute;
       top: 2px;
       right: 2px;
-      background-image: url("/dist/img/search-icon.png");
+      background-image: url("../img/search-icon.png");
       background-repeat: no-repeat;
       display: block;
       width: 17px;
@@ -232,11 +232,11 @@ a {
   transform: translateY(-50%); }
 
 #intro-slider .arrow-left {
-  background-image: url("/dist/img/arrow-left.png");
+  background-image: url("../img/arrow-left.png");
   left: 20%; }
 
 #intro-slider .arrow-right {
-  background-image: url("/dist/img/arrow-right.png");
+  background-image: url("../img/arrow-right.png");
   right: 20%; }
 
 @media (min-width: 768px) {
@@ -307,7 +307,7 @@ a {
     width: 95px;
     height: 5px;
     display: block;
-    background-image: url("/dist/img/decoration-line.png");
+    background-image: url("../img/decoration-line.png");
     margin: 30px auto 0; }
 
 .products-section p {
@@ -507,15 +507,15 @@ a {
           -moz-transition: all 0.3s;
           transition: all 0.3s; }
           .main-footer .footer-bottom .soc-net li a.ks {
-            background-image: url("/dist/img/krojacevaskola.png"); }
+            background-image: url("../img/krojacevaskola.png"); }
           .main-footer .footer-bottom .soc-net li a.fb {
-            background-image: url("/dist/img/facebook.png"); }
+            background-image: url("../img/facebook.png"); }
           .main-footer .footer-bottom .soc-net li a.tw {
-            background-image: url("/dist/img/twitter.png"); }
+            background-image: url("../img/twitter.png"); }
           .main-footer .footer-bottom .soc-net li a.in {
-            background-image: url("/dist/img/instagram.png"); }
+            background-image: url("../img/instagram.png"); }
           .main-footer .footer-bottom .soc-net li a.yt {
-            background-image: url("/dist/img/youtube.png"); }
+            background-image: url("../img/youtube.png"); }
           .main-footer .footer-bottom .soc-net li a:hover {
             opacity: 0.8; }
 
@@ -544,7 +544,7 @@ a {
       width: 40px;
       height: 40px;
       border: 1px solid #fff;
-      background-image: url("/dist/img/back-to-top-white.png");
+      background-image: url("../img/back-to-top-white.png");
       background-repeat: no-repeat;
       background-position: center;
       text-indent: -9999px;
@@ -556,7 +556,7 @@ a {
       -moz-transition: all 0.3s;
       transition: all 0.3s; }
       .main-footer .footer-top .back-to-top:hover {
-        background-image: url("/dist/img/back-to-top-blue.png");
+        background-image: url("../img/back-to-top-blue.png");
         background-color: #fff; }
   .main-footer .footer-bottom .soc-net {
     float: left; }
@@ -595,7 +595,7 @@ a {
   .main-footer .footer-top .back-to-top {
     border-color: #85c3dc;
     bottom: -65px;
-    background-image: url("/dist/img/back-to-top-blue.png"); }
+    background-image: url("../img/back-to-top-blue.png"); }
     .main-footer .footer-top .back-to-top:hover {
       background-color: #85c3dc;
-      background-image: url("/dist/img/back-to-top-white.png"); } }
+      background-image: url("../img/back-to-top-white.png"); } }

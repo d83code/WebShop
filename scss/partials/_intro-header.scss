@@ -76,12 +76,12 @@
     transform: translateY(-50%);
   }
   .arrow-left {
-    background-image: url("/dist/img/arrow-left.png");
+    background-image: url("../img/arrow-left.png");
     left: 20%;
   }
 
   .arrow-right {
-    background-image: url("/dist/img/arrow-right.png");
+    background-image: url("../img/arrow-right.png");
     right: 20%;
   }
 }
